@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f8;
+    color: #222;
+    text-align: center;
+}
+h1 {
+    color: red;
+}
+/* .title {
+    color: grey;
+    font-weight: 700;
+} */
+.booklist {
+    width: 90vh;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+    .booklist {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.book {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1 rem 2 rem;
+}
