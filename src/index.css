@@ -26,10 +26,11 @@ h1 {
 @media screen and (min-width: 768px) {
     .booklist {
         grid-template-columns: repeat(3, 1fr);
+        align-items: start;
     }
 }
 .book {
     background: #fff;
     border-radius: 1rem;
-    padding: 1 rem 2 rem;
+    padding: 10px;
 }
